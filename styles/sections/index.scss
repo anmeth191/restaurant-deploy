@@ -1,0 +1,145 @@
+@import '../variables/variables.scss';
+@import '../mixins/mixins.scss';
+
+.index{
+
+    display: grid;
+    grid-template-columns: repeat(8 , minmax(min-content , 1fr));
+    grid-template-rows: 90vh 20rem 30rem 70vh 35rem ;
+    &__showcase{
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        background: linear-gradient(to right , rgba($secondary-dark , 0.9) , rgba($secondary-color , 0.8)), url('../../assets/showcase_large.jpg'); 
+        background-position: start;
+        background-size: auto;
+        background-attachment: fixed;
+        position: relative;
+
+        &__container{
+           @include centerAbsoulte;
+           background: rgba($secondary-color , 0.8);
+            
+            padding: 10rem 20rem;
+            
+
+            &--content{
+                &--title{
+                    text-align: center;
+
+                    & > h1 { margin-bottom: 1rem;}
+                    &-h1{
+                     display: block;
+                     font-size: 7rem;
+                     letter-spacing: 0.3rem;
+                    }//end of the header h1 element
+
+                    &-h2{
+                       display: block;
+                       font-size: 2rem;
+                       text-transform: lowercase;
+                    }//end of the header h2 element
+                }//end of the container where the to headers are 
+
+            &--buttons{
+                margin-top:4rem;
+                width: 100%;
+                
+                &-container{
+                    width: 60%;
+                    margin: 0 auto;
+                    display: flex;
+                   flex-direction: row;
+                   flex-wrap: wrap;
+                   justify-content: center;
+                
+                &-button{
+                   
+                    background: $primary-dark;
+                    padding: 1.5rem 3rem;
+                    text-decoration: none;
+                    color: $text-color;
+                    font-size: 2rem;
+                    transition: 0.3s;
+                    outline: solid 0.1rem $text-color ;
+
+                    &:not(:last-child){margin-right: 2rem;}
+                    &:active{transform: translateY(0.2rem);transition: 0.2s;}
+                    &:hover{ background: $primary-color;}
+                }
+                }
+            }
+
+            }//end of the content container
+        }//end of the main container
+    }//end of the whole showcase
+
+    &__slogan{
+        background: $primary-color;
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+        position: relative;
+
+        &--content{
+            @include centerAbsoulte;
+            font-size: 2rem;     
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            
+            &-message{
+                letter-spacing: 0.4rem;
+            }//end of the message h1 
+        }//end of the content container where the message is
+    }//end of the slogan cpntainer below the showcase
+
+
+          &__images{
+              background: $primary-color;
+              grid-column: 1 / -1;
+              grid-row: 3 / 4;
+              display: grid;
+              grid-template-columns: repeat(4 , minmax(min-content , 1fr));
+           
+              & > div{
+                  background-size: cover;
+                  background-position: center;
+              }
+
+              &--1{background: url('../../assets/image-1-large.jpg')}
+              &--2{background:url('../../assets/image-2-large.jpg')}
+              &--3{background: url('../../assets/image-3-large.jpg')}
+              &--4{background: url('../../assets/image-4-large.jpg')}
+          } //end of the images container
+
+
+          &__geolocation{
+              background: $primary-color;
+              grid-column: 1 / -1;
+              grid-row: 4 /5;
+          }//end of the geolocation
+
+          &__beforeFooter{
+              background: linear-gradient( to right , rgba($secondary-color , 0.7) , rgba($secondary-dark , 0.7)) , url('../../assets/image-2-large.jpg');
+              background-position: center;
+              background-attachment: fixed;
+              background-size: cover;
+              grid-column: 1 / -1;
+             position: relative;
+
+              &--content{
+                  width: 60%;
+                  margin: 0 auto;
+                   @include centerAbsoulte;
+                  background: rgba($primary-dark , 0.7);
+                  text-align: center;
+
+                  &-message{
+                      padding: 5rem;
+                      font-size: 4rem;
+                  }
+
+              }
+
+          }
+
+}//end of the index container

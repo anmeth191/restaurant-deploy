@@ -1,0 +1,56 @@
+@import '../variables/variables.scss';
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   display: block;
+   background: $primary-color; 
+   padding: 1.7rem;
+   font-size: 2rem;
+    width: 100%;
+
+    &__nav{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &_home{
+            &_link{
+                text-decoration: none;
+
+                &-title{
+                    color: $text-color;
+                    letter-spacing: 0.2rem;
+               
+                }//end of the title
+                
+            }//end of the link
+        }//end of the home
+
+        &_links{
+            &_ul{ 
+              &_li{ 
+                list-style: none; 
+                float:right;
+                padding:0.5rem 2.5rem;    
+                
+                &-links{
+                    text-decoration:none; 
+                    
+                    font-weight: 1000;
+                    color: $text-color;
+                    transition: 0.2s;
+                    
+                    &:hover{
+                        color: $primary-dark;
+                        letter-spacing: 0.1rem;
+                    }
+
+                 } //end of the links
+               }//end of the list
+            }//end of the ul
+        }//end of the links
+    }//end of the nav tag
+}//end of the navbar

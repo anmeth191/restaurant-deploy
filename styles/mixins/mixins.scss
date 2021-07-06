@@ -1,0 +1,12 @@
+@mixin centerAbsoulte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+@mixin  clearFloat {
+    content:'';
+    clear: both;
+    display: table;
+    }

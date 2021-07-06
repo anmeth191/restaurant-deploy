@@ -1,0 +1,94 @@
+@import '../variables/variables.scss';
+
+.footer{
+
+color: $text-color;   
+background: $primary-color;
+width: 100%;   
+padding: 5rem;
+font-size: 1.6rem;
+
+&__foot{
+       
+display: grid;
+grid-template-columns: repeat(3 , minmax(min-content, 1fr));
+grid-gap: 1rem;
+margin: 0 auto;
+width: 90%;
+
+&_links{
+     padding: 1rem;
+     text-align: center;
+     height: 100%;
+    &_container{
+        padding: 1rem;
+        &_ul{
+            &-li{
+            list-style: none;
+              &-link{
+                  color: $text-color;
+                  //font-size: 1.5rem;
+                  text-decoration: none;
+              }
+            }
+        }//end of the ul
+    }//end of the container in the links
+}//end of the links div
+
+
+//style the hours container 
+
+&_hours{
+    padding: 0.5rem;
+    text-align: center;
+
+    &_container{
+        padding: 0.5rem;
+   
+        //style the title hours in the container
+        &--title{
+            letter-spacing: 0.2rem;
+            margin-bottom: 0.5rem;
+        }//end of the tile
+
+        //style the content open now closes at
+        &--time{
+          &-content-open , &-content-closed{
+              margin-bottom: 1rem;
+              color: $text-color;
+              padding: 0.5rem;
+          }//end of the container time
+          
+          &-content-open{background: green;}
+          &-content-closed{background: $primary-dark;}
+
+        }//end of the time
+
+        &-schedule{
+            padding: 1rem 0;
+            //&-days{font-size: 1.8rem;}
+            //&-times{font-size: 1.3rem;}
+        }
+    }//end of the container
+}//end of the container hours
+
+&__contact{
+    padding: 0.5rem;
+    text-align: center;
+    &__container{
+        height: 100%;   
+        &--title{margin-bottom: 1rem;}//end of the title
+      &--list{padding: 1rem 0;
+           &--ul{
+               &--li{
+                   list-style: none;
+                   padding: 0.3rem 0;
+               }//end of the li
+           }//end of the ul container
+        }//end of the list global container
+    }//end of the container
+}//end of the contact
+
+
+}//end of the foot
+}//end of the footer
