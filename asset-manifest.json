@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/restaurant-deploy/static/css/main.3d64dc40.chunk.css",
+    "main.css": "/restaurant-deploy/static/css/main.07f32eca.chunk.css",
     "main.js": "/restaurant-deploy/static/js/main.f54361e9.chunk.js",
     "main.js.map": "/restaurant-deploy/static/js/main.f54361e9.chunk.js.map",
     "runtime-main.js": "/restaurant-deploy/static/js/runtime-main.543c3ed0.js",
@@ -8,16 +8,16 @@
     "static/js/2.cfbe2324.chunk.js": "/restaurant-deploy/static/js/2.cfbe2324.chunk.js",
     "static/js/2.cfbe2324.chunk.js.map": "/restaurant-deploy/static/js/2.cfbe2324.chunk.js.map",
     "index.html": "/restaurant-deploy/index.html",
-    "static/css/main.3d64dc40.chunk.css.map": "/restaurant-deploy/static/css/main.3d64dc40.chunk.css.map",
+    "static/css/main.07f32eca.chunk.css.map": "/restaurant-deploy/static/css/main.07f32eca.chunk.css.map",
     "static/js/2.cfbe2324.chunk.js.LICENSE.txt": "/restaurant-deploy/static/js/2.cfbe2324.chunk.js.LICENSE.txt",
-    "static/media/style.scss": "/restaurant-deploy/static/media/wrap-large.0d077b68.jpg",
+    "static/media/style.scss": "/restaurant-deploy/static/media/wrap-responsive.2c4febd3.jpg",
     "static/media/chef-large.1106146e.jpg": "/restaurant-deploy/static/media/chef-large.1106146e.jpg",
     "static/media/restaurante-large.48273a9b.jpg": "/restaurant-deploy/static/media/restaurante-large.48273a9b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.543c3ed0.js",
     "static/js/2.cfbe2324.chunk.js",
-    "static/css/main.3d64dc40.chunk.css",
+    "static/css/main.07f32eca.chunk.css",
     "static/js/main.f54361e9.chunk.js"
   ]
 }
