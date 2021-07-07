@@ -1,0 +1,69 @@
+@import '../variables/variables.scss';
+@import '../mixins/mixins.scss';
+
+.mailingList{
+    height: 100%;
+    background: $secondary-color;
+
+
+    &__showcase{
+        height: 40vh;
+        background:linear-gradient(to right , rgba( $secondary-color , 0.5) , rgba($secondary-dark , 0.7)) , url('../../assets/pizzaMailing-large.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__title{
+            display: block;
+            background: $primary-color;
+            padding: $large-padding;
+           opacity: 0.9;
+            &-content{
+                display: block;
+               
+            }//end of the content
+        }//end of the the title container 
+    }//end of the showcase 
+
+
+    &__container{
+    @include marginAuto;
+     padding: $medium-padding;
+
+     //style the content before the form
+     &-title{
+         display: block;
+         text-align: center;
+         padding: $small-padding;
+         
+         &-message{
+             padding: $small-padding;
+             display: inline-block;
+             width: 60%;
+             font-size: $smallTitleFont;
+         }
+     }
+
+     &__form{
+         width: 60%;
+         margin: 0 auto;
+
+         &-dataForm{
+             width: 100%;
+
+             &-input{
+                 padding: $small-padding;
+
+                 &:last-child{
+                     margin-top:3rem;
+                 }
+                
+             }//end of the input 
+         }//end of the dataform container fot each indiviual 
+     }//end of the form
+    }//end of the container
+
+}
