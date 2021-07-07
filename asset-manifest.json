@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/restaurant-deploy/static/css/main.07f32eca.chunk.css",
-    "main.js": "/restaurant-deploy/static/js/main.f54361e9.chunk.js",
-    "main.js.map": "/restaurant-deploy/static/js/main.f54361e9.chunk.js.map",
+    "main.js": "/restaurant-deploy/static/js/main.858481b6.chunk.js",
+    "main.js.map": "/restaurant-deploy/static/js/main.858481b6.chunk.js.map",
     "runtime-main.js": "/restaurant-deploy/static/js/runtime-main.543c3ed0.js",
     "runtime-main.js.map": "/restaurant-deploy/static/js/runtime-main.543c3ed0.js.map",
     "static/js/2.cfbe2324.chunk.js": "/restaurant-deploy/static/js/2.cfbe2324.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.543c3ed0.js",
     "static/js/2.cfbe2324.chunk.js",
     "static/css/main.07f32eca.chunk.css",
-    "static/js/main.f54361e9.chunk.js"
+    "static/js/main.858481b6.chunk.js"
   ]
 }
