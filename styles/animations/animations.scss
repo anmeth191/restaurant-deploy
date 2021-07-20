@@ -1,0 +1,9 @@
+@keyframes sideBarAnimation{
+ 0%{ height: 0;}
+100%{ height:40vh}
+}
+
+@keyframes sideBarAnimationOut{
+    0%{height: 40vh;}
+   100%{height:0;}
+   }
