@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/restaurant-deploy/static/css/main.a93e8917.chunk.css",
-    "main.js": "/restaurant-deploy/static/js/main.f6c2a418.chunk.js",
-    "main.js.map": "/restaurant-deploy/static/js/main.f6c2a418.chunk.js.map",
+    "main.css": "/restaurant-deploy/static/css/main.e101bc54.chunk.css",
+    "main.js": "/restaurant-deploy/static/js/main.9c29714f.chunk.js",
+    "main.js.map": "/restaurant-deploy/static/js/main.9c29714f.chunk.js.map",
     "runtime-main.js": "/restaurant-deploy/static/js/runtime-main.543c3ed0.js",
     "runtime-main.js.map": "/restaurant-deploy/static/js/runtime-main.543c3ed0.js.map",
     "static/js/2.4a723da2.chunk.js": "/restaurant-deploy/static/js/2.4a723da2.chunk.js",
     "static/js/2.4a723da2.chunk.js.map": "/restaurant-deploy/static/js/2.4a723da2.chunk.js.map",
     "index.html": "/restaurant-deploy/index.html",
-    "static/css/main.a93e8917.chunk.css.map": "/restaurant-deploy/static/css/main.a93e8917.chunk.css.map",
+    "static/css/main.e101bc54.chunk.css.map": "/restaurant-deploy/static/css/main.e101bc54.chunk.css.map",
     "static/js/2.4a723da2.chunk.js.LICENSE.txt": "/restaurant-deploy/static/js/2.4a723da2.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/restaurant-deploy/static/media/wrap-responsive.2c4febd3.jpg",
     "static/media/chef-large.1106146e.jpg": "/restaurant-deploy/static/media/chef-large.1106146e.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.543c3ed0.js",
     "static/js/2.4a723da2.chunk.js",
-    "static/css/main.a93e8917.chunk.css",
-    "static/js/main.f6c2a418.chunk.js"
+    "static/css/main.e101bc54.chunk.css",
+    "static/js/main.9c29714f.chunk.js"
   ]
 }
