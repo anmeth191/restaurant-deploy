@@ -1,0 +1,92 @@
+@import '../variables/variables.scss';
+@import '../mixins/mixins.scss';
+
+.mailingList{
+    height: 100%;
+    background: $secondary-color;
+
+
+    &__showcase{
+        height: 40vh;
+        background:linear-gradient(to right , rgba( $secondary-color , 0.5) , rgba($secondary-dark , 0.7)) , url('../../assets/pizzaMailing-large.jpg');
+       background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__title{
+            display: block;
+            background: $primary-dark;
+            padding: $large-padding;
+           
+            @include responsive(tab-landscape){padding: $small-padding;}
+            @include responsive(tab-portrait){padding: $small-padding;}
+            @include responsive(phone){padding: $small-padding;}
+
+           opacity: 0.9;
+            &-content{
+                display: block;
+               
+            }//end of the content
+        }//end of the the title container 
+    }//end of the showcase 
+
+
+    &__container{
+    @include marginAuto;
+     padding: $medium-padding;
+
+     @include responsive(tab-landscape){
+        width: 100%;
+        padding: $small-padding;
+    }
+     @include responsive(phone){
+         width: 100%;
+         padding: $small-padding;
+     }
+
+     //style the content before the form
+     &-title{
+         display: block;
+         text-align: center;
+         padding: $small-padding;
+         
+         &-message{
+             padding: $small-padding;
+             display: inline-block;
+             width: 60%;
+             font-size: $smallTitleFont;
+
+             @include responsive(tab-landscape){padding: $small-padding 0;width: 100%;}
+             @include responsive(tab-portrait){padding: $small-padding 0;width: 100%;}
+             @include responsive(phone){padding: $small-padding 0;width: 100%;}
+    
+         }
+     }
+
+     &__form{
+         width: 60%;
+         margin: 0 auto;
+         @include responsive(tab-landscape){padding: $small-padding 0;width: 80%;}
+         @include responsive(tab-portrait){padding: $small-padding 0;width: 90%;}
+         @include responsive(phone){padding: $small-padding 0;width: 100%;}
+
+
+         &-dataForm{
+             width: 100%;
+
+             &-input{
+                 padding: $small-padding;
+
+                 &:last-child{
+                     margin-top:3rem;
+                     text-align: center;
+                 }
+                
+             }//end of the input 
+         }//end of the dataform container fot each indiviual 
+     }//end of the form
+    }//end of the container
+
+}
