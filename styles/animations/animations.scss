@@ -1,0 +1,15 @@
+@keyframes sideBarAnimation{
+ 0%{ height: 0;}
+100%{ height:40vh}
+}
+
+@keyframes sideBarAnimationIn{
+    0%{display: none;}
+   100%{display: block;}
+   }
+
+
+@keyframes sideBarAnimationOut{
+    0%{display: block;}
+   100%{display: none;}
+   }

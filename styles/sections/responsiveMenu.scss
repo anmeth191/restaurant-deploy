@@ -1,0 +1,44 @@
+@import '../variables/variables.scss';
+@import '../mixins/mixins.scss';
+@import '../animations/animations.scss';
+@import '../reusables/reusables.scss';
+
+.sideNavbarActive{ display: block;}
+
+.sideNavbarNoActive{ display: none;}
+.sideNavbar{
+    
+    background: $secondary-color;
+    
+    color: $text-color;
+    height: 100vh;
+    position: fixed;
+    width: 70%;
+    z-index: 10;
+    opacity: 0.9;
+    //@include responsive(phone){height: 30vh;}
+    &-container{
+        width: 100%;    
+        padding: $large-padding 0;     
+        &-elements{
+            &-ul{
+                &-li{
+                    background: $primary-color;
+                    border-top: 0.1rem solid $text-color;
+                    border-bottom: 0.1rem solid $text-color;
+                     list-style: none;  
+                    padding: $medium-padding  0;
+                    text-align: center;
+
+                    &-link{
+                        color: $text-color;
+                        text-decoration: none;
+                        font-size: $mediumTitleFont;
+                        letter-spacing: $mediumFontSpacin;
+                    }
+                }
+            }
+        }
+    }
+  
+}
